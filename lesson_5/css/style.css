@@ -1,0 +1,160 @@
+@import url(reset.css);
+
+@font-face {
+   font-family: "Alexander";
+   src: url("../fonts/Alexander.woff2") format("woff2"),
+      url("../fonts//Alexander.woff") format("woff");
+   font-display: swap;
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: "Deutsch Gothic";
+   src: url("../fonts/DeutschGothic.woff2") format("woff2"),
+      url("../fonts/DeutschGothic.woff") format("woff");
+   font-display: swap;
+   font-weight: 500;
+   font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+
+body {
+   font-family: "Alexander";
+}
+
+.content {
+   text-align: right;
+   font-size: 40px;
+   font-weight: 900;
+}
+
+.imglogo {
+   max-width: 1500px;
+}
+
+.title {
+   font-size: 30px;
+   text-align: center;
+   text-shadow: 2px 2px 5px rgb(219, 35, 114);
+}
+
+.text {
+   color: #f80808;
+   line-height: 1.5;
+   font-family: "Deutsch Gothic";
+   font-weight: 500;
+}
+
+.paragraph {
+   text-indent: 30px;
+}
+
+.img {
+   max-width: 500px;
+}
+
+.title-two {
+   text-decoration: underline;
+   text-transform: uppercase;
+   text-align: right;
+   color: rgb(10, 223, 117);
+   font-size: 25px;
+}
+
+.guys {
+   letter-spacing: 3px;
+   line-height: 1.4;
+   font-size: 14px;
+   font-family: "Deutsch Gothic";
+   font-weight: 500;
+}
+
+.episodes {
+   color: #a70d4d;
+}
+
+.love {
+   white-space: nowrap;
+   word-spacing: 3px;
+}
+
+.name {
+   font-size: 35px;
+   text-align: center;
+   letter-spacing: 2px;
+   line-height: 1.5;
+   text-decoration: underline;
+   text-shadow: 3px 3px 5px rgb(167, 18, 112);
+}
+
+.name-list {
+   line-height: 1.4;
+   font-size: 18px;
+   text-indent: 25px;
+
+}
+
+
+.why-us {
+   color: #37393F;
+   font-family: "Poppins";
+   font-size: 30px;
+   font-weight: 600;
+   line-height: 1.27;
+   text-transform: capitalize;
+}
+
+.completely {
+   color: #7D7D7D;
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+}
+
+.proactively {
+   color: #6B77E5;
+   font-family: "Poppins";
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+}
+
+.information {
+   color: #37393F;
+   font-family: "Poppins";
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.27;
+}
+
+.distinctively,
+.quickly,
+.embrace,
+.friendly {
+   color: #7D7D7D;
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+
+}
+
+.quickly {}
+
+.list,
+.list-2 {
+   color: #7D7D7D;
+   font-family: "Inter";
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 1.46;
+}
+
+.embrace {}
+
+
+.friendly {}
